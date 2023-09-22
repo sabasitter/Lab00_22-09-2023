@@ -43,19 +43,19 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+Our favourite numbers and usernames in a bar chart, shown in our favourite colours. 
 
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "Username", 
+          y = "Favourite number",
+          title = "Group information")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+	Modify axis, legend, and plot labels.
 
 ### Exercise 20
 
@@ -65,4 +65,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+Spreadsheet, catagorise hobbies hobbies into generalised groups, pie chart.
